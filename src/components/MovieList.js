@@ -2,6 +2,7 @@ import React from "react";
 
 const MovieList = (props) => {
   const FavoriteComponent = props.favoriteComponent;
+  if (props) {
   return (
     <>
       {props.movies.map((movie, index) => (
@@ -17,6 +18,7 @@ const MovieList = (props) => {
       ))}
     </>
   );
+  }
 };
 
 export default MovieList;
