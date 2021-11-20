@@ -79,7 +79,7 @@ function App() {
       </div>
 
       <p></p>
-      <p class="text-center">Built by React</p>
+      <p className="text-center">Built by React</p>
       <p></p>
       
 
